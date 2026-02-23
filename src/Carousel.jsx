@@ -7,7 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import "./carousel.css";
+import "./Carousel.css";
 
 const movies = [
   {
