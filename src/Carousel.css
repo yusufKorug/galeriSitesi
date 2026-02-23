@@ -1,0 +1,42 @@
+.carousel-container {
+  width: 100%;
+  height: 45vh;
+  margin-top: 40px;
+}
+
+/* SLIDE GENİŞLİĞİ BURADA */
+.swiper-slide-custom {
+  width: 680px;
+}
+
+.card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+  transition: transform 0.4s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  color: #fff;
+}
+
+/* ORTADAKİ BÜYÜSÜN */
+.swiper-slide-active .card {
+  transform: scale(1.15);
+}
+
+.carousel-container .swiper {
+  width: 100%;
+}
